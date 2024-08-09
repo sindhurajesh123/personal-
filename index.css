@@ -92,7 +92,8 @@ color:white!important;
     /*home section*/
 #home{
     position: relative;
-    width: 100%;
+    width: auto;
+    
     justify-content: space-between;
     height: 100vh;
     justify-content: center;
@@ -101,17 +102,11 @@ color:white!important;
     align-items: center;
   padding: 70px 10% 0;
  }
- .container
- {
-    max-width: 600px;
- }
- .image{
- width:50%;
- 
- }
+
+
  img{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 overflow: hidden;
 border: 3px solid white;
@@ -127,13 +122,11 @@ border: 3px solid white;
    }
  }
 
-.container h3{
-   max-width: 600px;
-}
+
 .container h3 {
 
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 25px;
+
   margin:5px 0;
   letter-spacing: 1px;
     color:white;
@@ -159,7 +152,7 @@ border: 3px solid white;
 }
 .container h2{
     font-size: 50px;
-    font-weight: 700;
+   
     margin: -3px 0;
    color:white;
    opacity:0;
